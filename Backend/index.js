@@ -19,7 +19,7 @@ app.post("/login", async (req,res)=>{
         if(user){
             res.send(user);
         }else{
-            res.send({result: 'No User found'});``
+            res.send({result: 'No User found'});
         }
     }else{
         res.send({result: 'No User found'});
